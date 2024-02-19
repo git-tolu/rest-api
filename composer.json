@@ -1,0 +1,17 @@
+{
+    "name": "mac/restful-api",
+    "autoload": {
+        "psr-4": {
+            "AT\\RestfulApi\\": "src/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.1.33"
+        }
+    },
+    "require": {
+        "php": ">=7.1.33",
+        "firebase/php-jwt": "^6.4"
+    }
+}
